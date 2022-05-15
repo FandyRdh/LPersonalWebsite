@@ -1,0 +1,279 @@
+/* ulitlity */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+*{
+    font-family: 'Poppins', sans-serif;
+}
+
+.sectionTitle{
+    font-size: 28px;
+    font-weight: 600;
+    color: #121416;
+}
+
+.UnderlineSTitile{
+    margin-top: -12px;
+}
+
+.colorMain{
+    width: 51px;
+    height: 5px;
+    border-radius: 25px;
+    background-color: #121416;
+    z-index: 0;
+    position: absolute;
+}
+.colorBG{
+    width: 138px;
+    border-radius: 25px;
+    height: 5px;
+    background-color: #D6D6D6;
+}
+
+
+.navbar{
+    padding: 34px 100px;
+}
+
+.navbar-brand img{
+    width: 60px;
+    height: 46px;
+}
+
+.navbar-nav .nav-link{
+    margin-left: 64px;
+    font-size: 16px;
+    color: #121416;
+    font-weight: 400;
+}
+
+/* Section:AboutMe */
+.aboutMe{
+    padding: 0 172px 90px;
+    margin-top: 61px;
+    width: 100%;
+    display: flex;
+}
+
+.txtAboutMe{
+    width: 50%;
+    flex-direction: column;
+}
+
+.txtAboutMe .job-Title{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 400;
+    color: #AAAAAA;
+}
+
+.txtAboutMe .name{
+    margin: -8px 0 0 0;
+    font-size: 48px;
+    font-weight: 600;
+    color: #121416;
+
+}
+.txtAboutMe .descriptionAM{
+    margin: 0 0 8px 0;
+    font-size: 16px;
+    font-weight: 400;
+    color: #666666;
+}
+
+
+.btnGroup{
+    margin-top: 23px;
+}
+.btnGroup .btnCV{
+    color: #FFFFFF;
+    background-color: #121416;
+    border: 2px solid #121416;
+    font-size: 16;
+    font-weight: 400;
+    border-radius: 29px;
+    padding: 10px 23px;
+    margin-right: 17px;
+}
+.btnGroup .btnContact{
+    color: #FFFFFF;
+    background-color: #121416;
+    border: 2px solid #121416;
+    font-size: 16;
+    font-weight: 400;
+    border-radius: 29px;
+    padding: 10px 23px;
+}
+
+
+.aboutMe .photo {
+    width: 50%;
+}
+.aboutMe .photo img{
+    border-radius: 300px;
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.16);
+    border: 25px solid #FFFFFF;
+    width: 422px;
+    height: 422px;
+}
+
+/* Section:What I DO */
+.WhatIDo{
+    padding: 0 100px;
+}
+
+.WhatIDo .skillList{
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.WhatIDo .skillList .skill-1 {
+    display: flex;
+    width: 558px;
+    margin-bottom: 44px;
+}
+
+.WhatIDo .skillList .skill-1 img{
+    width: 60px;  
+    margin-right: 26px;
+    height: 60px;
+}
+
+.skillList .skill-1 .txtSkill .Titile-Skill{
+    font-size: 20px;
+    font-weight: 600;
+    color: #121416;
+}
+.skillList .skill-1 .txtSkill .Description-Skill{
+    font-size: 14px;
+    font-weight: 400;
+    color: #666666;
+}
+
+/* myWork */
+.myWork{
+    padding: 0 100px;
+}
+
+.myWork .myWorkGroup{
+    margin-top: 37px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.myWork .myWorkGroup .img-sequare{
+    width: 355px;
+    height: 355px;
+    margin-bottom: 40px;
+}
+
+.myWork .myWorkGroup .img-rectangular{
+    width: 757px;
+    height: 355px;
+    margin-bottom: 54px;
+}
+
+/* experience */
+.experience{
+    padding: 0 100px;
+}
+
+.experience .exp-group{
+    margin-top: 22px;
+    width: 100%;
+    z-index: 1;
+}
+
+.experience .exp-1 {
+    display: flex;
+    justify-content: space-between;
+    width: 51%;
+    align-items: center;
+}
+
+.experience .exp-1 .exp-description{
+    width: 449px;
+}
+
+.experience .exp-1 .exp-description h1{
+    font-size: 16px;
+    font-weight: 600;
+    color: #121416;
+}
+
+.experience .exp-1 .exp-description p{
+    font-size: 12px;
+    font-weight: 400;
+    color: #666666;
+}
+
+.experience .exp-1  p{
+    font-size: 24px;
+    font-weight: 600;
+    color: #121416;
+}
+
+.experience .exp-1 .poin{
+    width: 24px;
+    height: 24px;
+    background-color: #FFFFFF;
+    border-radius: 100%;
+    border: 5px solid #121416;
+}
+
+.midLine{
+    position: absolute;
+    z-index: -1;
+    width: 7px;
+    height: 600px;
+    border-radius: 15px;
+    background-color: #121416;
+    left: 49.70%;
+    margin-top: -585px;
+    /* top: 5px; */
+}
+
+.Certificates{
+    margin-top: 80px;
+    height: 1080px;
+    padding: 0 100px;
+}
+
+.Certificates .cList{
+    width: 100%;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.c-1{
+    display: flex;
+    border: 2px solid #121416;
+    width: 48%;
+    margin-bottom: 27px;
+}
+
+.c-1 img{
+    width: 140px;
+    height: 117px;
+}
+
+.c-1 .txt-c {
+    padding: 14px 17px;  
+}
+.c-1 .txt-c h1{
+    font-size: 14px;
+    font-weight: 600;
+    color: #121416;    
+}
+
+.c-1 .txt-c .ct{
+    font-size: 12px;
+    font-weight: 400;
+    color: #666666;  
+    margin: 0;  
+}
